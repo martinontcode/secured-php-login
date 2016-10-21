@@ -6760,9 +6760,7 @@ button.close {
 
 .form-login {
   max-width: 330px;
-  padding: 15px;
-  padding-top: 15%;
-  
+  padding: 20px;
   margin: 0 auto;
 }
 .form-login .form-login-heading,
