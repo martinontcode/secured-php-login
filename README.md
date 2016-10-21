@@ -21,4 +21,4 @@ Licensed under MIT. You can use this script for free for any private or commerci
 ## Contribute
 Please create a feature-branch if possible when committing to the project, if not then simply commit to master branch.
 ## Screenshot
-![LoginForm](http://imgur.com/3Zh2E5E)
+![LoginForm](http://i.imgur.com/3Zh2E5E.png)
