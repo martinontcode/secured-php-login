@@ -1,7 +1,11 @@
 <?php
-
+if(!isset($_SESSION)) { 
+    session_start(); 
+} 
+/* Start session, this is necessary ! */
+        
 /* secured-php-login
- * PHP login script that uses up to date password hashing and salting.
+ * PHP login and registration scripts that use up to date password hashing and salting.
  * Proper security againts SQL injections.
  * @author MartinoEst
  * @link https://github.com/martinoest/secured-php-login/

@@ -7,9 +7,6 @@ class Login{
      */
      public function __construct(){
          
-        /* Start session, this is necessary ! */
-        session_start();
-        
         /* First check if user is logged in. */
         $this->isLoggedIn();
         
