@@ -4,7 +4,7 @@ PHP login script that includes secure validation, MySQLi injection protection an
 ![Login Form](http://i.imgur.com/lbuttFs.png)
 
 ## Who is this script for ?
-If you are looking for a simple login script then this is for you. A lot of beginners try to build login scripts from scratch and end up using outdated salting and hashing. This script comes with a fully implemented user validation system covering most of security issues.
+If you are looking for a simple login script then this is for you. A lot of beginners try to build login scripts from scratch and end up using outdated salting and hashing. This script comes with a fully implemented user validation system covering most of security issues. You should use this login script with the registraton script also available on my [Github] (https://github.com/MartinoEst/php-user-registration).
 ## Requirements
 1. PHP 5.6
 2. mySQLi activated
