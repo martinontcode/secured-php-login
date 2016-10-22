@@ -1,12 +1,10 @@
 <?php
-if(!isset($_SESSION)) { 
-    session_start(); 
-} 
-/* Start session, this is necessary ! */
+if(!isset($_SESSION)) { session_start();} 
+/* Start session, this is necessary, you should place this into your header right after <?php syntax ! */ 
         
-/* secured-php-login
- * PHP login and registration scripts that use up to date password hashing and salting.
- * Proper security againts SQL injections.
+/* Secure and minimal PHP login script
+ * PHP login script that includes secure validation, MySQLi injection protection and has great design.
+ * 
  * @author MartinoEst
  * @link https://github.com/martinoest/secured-php-login/
  * @license http://opensource.org/licenses/MIT MIT License
