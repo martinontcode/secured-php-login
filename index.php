@@ -1,8 +1,6 @@
 <?php
-if(!isset($_SESSION)) { 
-    session_start(); 
-} 
-/* Start session, this is necessary ! */
+if(!isset($_SESSION)) { session_start();} 
+/* Start session, this is necessary, you should place this into your header right after <?php syntax ! */ 
         
 /* secured-php-login
  * PHP login and registration scripts that use up to date password hashing and salting.
