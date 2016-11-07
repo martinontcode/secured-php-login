@@ -8,7 +8,7 @@
 <!-- This error will be shown to user if wrong username or password is provided -->
     
 <!-- Login Form -->
-<form method="post" action="index.php" name="loginform" class="form-login">
+<form  action="index.php" name="loginform" class="form-login" method="post">
     
 <div class="form-group">
     <div class="cnt"><h3>Sign into portal</h3></div>
@@ -19,7 +19,7 @@
     <input type="submit"  name="login" value="Sign In" class="btn btn-lg btn-success btn-block submit" />
 </div>
 
-<?php if(@$_GET['login'] == 'false'): ?>
+<?php if(!empty(@$_SESSION['errorMessage'])): ?>
     <div class="alert alert-danger">
         <strong><center>Username or password is incorrect!</center></strong>
     </div>
@@ -34,5 +34,12 @@
 <!-- Remove this to remove the GitHub URL link -->
 <div class="cnt gray"><a href="https://github.com/MartinoEst/secured-php-login">Check out this code at GitHub</a></div>
 
+<!-- Back to main page -->  
+<div class="cnt gray"><a href="http://www.martincodes.com">Back to main page</a></div>  
+  
 </div>
 <!-- End div -->
+
+<?php if(!empty(@$_SESSION['user_id'])): ?>
+<div class="cnt"><a href="#">Dont have an account? Create one</a></div>
+<?php endif; ?>

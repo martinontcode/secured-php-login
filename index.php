@@ -14,9 +14,14 @@ if(!isset($_SESSION)) { session_start();}
    
 
 /* Require login.php to call login function */
-require_once("functions/login.php");
+require("functions/login.php");
 
 /* Call for login function */
 $login = new Login();
+  
+if($login->isLoggedIn() == true){
+  include("views/userview.php");
+} else {
+  include("views/loginform.php");
+}
 
-?>
