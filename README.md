@@ -12,11 +12,11 @@ If you are looking for a simple login script then this is for you. A lot of begi
 ## Live demo
 http://login.martincodes.com
 
+```
 You can user these credentials to test the login function:
-
 Username: test
-
 Password: test
+```
 ## Installation
 Create a database called "login" with table called "users", at minimal add columns 'username' & 'password'.
 Change database server, user, password in config/dbconnect.php.
