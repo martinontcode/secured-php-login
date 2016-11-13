@@ -5,8 +5,6 @@
 
 <div class="container">
     
-<!-- This error will be shown to user if wrong username or password is provided -->
-    
 <!-- Login Form -->
 <form  action="index.php" name="loginform" class="form-login" method="post">
     
@@ -19,6 +17,7 @@
     <input type="submit"  name="login" value="Sign In" class="btn btn-lg btn-success btn-block submit" />
 </div>
 
+<!-- This error will be shown to user if wrong username or password is provided -->    
 <?php if(!empty(@$_SESSION['errorMessage'])): ?>
     <div class="alert alert-danger">
         <strong><center>Username or password is incorrect!</center></strong>
@@ -26,7 +25,7 @@
 <?php endif; ?>
     
 <!-- URL to registration form -->
-<div class="cnt"><a href="#">Dont have an account? Create one</a></div>
+<div class="cnt"><a href="http://registration.martincodes.com/index.php">Dont have an account? Create one</a></div>
 
 </form>
 <!-- End Login Form -->

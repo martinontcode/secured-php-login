@@ -18,9 +18,7 @@ class Login{
         /* If login data is posted call validation function. */
         if (isset($_POST["login"])) {
             $this->validateLogIn();
-        }
-        
-        
+        }     
                        
     } /* End __construct() */
     
@@ -94,8 +92,7 @@ class Login{
         session_destroy();  // Destroy all session data.
         header('Location: index.php');
         
-    } /* End logOut() */
-    
+    } /* End logOut() */   
     
     
 } /* End class Login */
