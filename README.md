@@ -18,9 +18,9 @@ Username: test
 Password: test
 ```
 ## Installation
-Create a MySQL database named 'membership'.
-Change database server, user, password in config/dbconnect.php.
-Run the script below to create MySQL table.
+Create a MySQL database named 'membership'.  
+Change database server, user, password in config/dbconnect.php.  
+Run the script below to create MySQL table.  
 ```
 CREATE TABLE `users`(
   `id` INT(11) NOT NULL,
