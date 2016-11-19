@@ -22,7 +22,13 @@ Create a MySQL database named 'membership'.
 Change database server, user, password in config/dbconnect.php.  
 Run the script below to create MySQL table.  
 ```
-CREATE TABLE `membership`.`membership` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `username` VARCHAR(20) NOT NULL , `email` VARCHAR(40) NOT NULL , `password` VARCHAR(128) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `membership`.`users`(
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(20) NOT NULL,
+  `email` VARCHAR(40) NOT NULL,
+  `password` VARCHAR(128) NOT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE = InnoDB;
 ```
 ## License
 Licensed under MIT. You can use this script for free for any private or commercial projects.
