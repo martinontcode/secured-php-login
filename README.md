@@ -1,5 +1,7 @@
 # Secure and minimal PHP login script
 PHP login script that includes secure validation, MySQLi injection protection and has great design.
+## On HOLD
+As my university academic session is starting, I won't be able to update my projects as often as I would like to.
 ## Screenshot
 ![Login Form](http://i.imgur.com/lbuttFs.png)
 
